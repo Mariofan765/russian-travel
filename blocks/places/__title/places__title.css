@@ -1,6 +1,6 @@
 .places__title {
   grid-column: 2/3;
-  grid-row: span 1/4 ;
+  grid-row: span 1/4;
   font-family: Inter;
   font-style: normal;
   font-weight: 900;
