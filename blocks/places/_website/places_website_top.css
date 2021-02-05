@@ -1,0 +1,22 @@
+.places_website_top {
+  grid-column: 3/4;
+  grid-row: 2/4 ;
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 170%;
+  letter-spacing: 0.2em;
+  color: #AAA;
+  align-self: end;
+  padding-bottom: 34px;
+}
+@media screen and (max-width: 768px) {
+  .places_website_top {
+    font-size: 12px;
+    line-height: 12px;
+    grid-column: 1/2;
+    grid-row: 2/4;
+  }
+}

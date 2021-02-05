@@ -1,0 +1,12 @@
+.places__paragraphs {
+  grid-column: 3/4;
+  grid-row: 4/5;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+  .places__paragraphs {
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
+}

@@ -1,0 +1,6 @@
+.opacity-img {
+  opacity: 100%;
+}
+.opacity-img:hover {
+  opacity: 20%;
+}
