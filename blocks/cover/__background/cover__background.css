@@ -1,25 +1,10 @@
 .cover__background {
-  max-width: 1184px;
-  max-height: 740px;
-  opacity: 90%;
-  
+  max-width: 100%;
+  opacity: 0.7;
 }
-
 @media screen and (max-width: 1280px) {
   .cover__background {
     max-width: 100%;
     max-height: 640px;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .cover__background {
-    max-width: 100%;
-    max-height: 480px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .cover__background {
-    max-width: 100%;
-    max-height: 200px;
   }
 }

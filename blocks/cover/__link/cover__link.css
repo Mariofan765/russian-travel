@@ -1,4 +1,27 @@
 .cover__link {
-  color: #FFFFFF;
+  margin: 0 auto;  
+  display: grid;
+  grid-template-columns: 1184px;
+  grid-row: 740px;
+  color: #ffffff;
   text-decoration: none;
+  overflow: hidden;
+}
+@media screen and (max-width: 1280px) {
+  .cover__link {
+    grid-template-columns: 1024px;
+    grid-template-rows: 640px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .cover__link {
+    grid-template-columns: 768px;
+    grid-template-rows: 480px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cover__link {
+    grid-template-columns: 320px;
+    grid-template-rows: 200px;
+  }
 }

@@ -1,6 +1,7 @@
 .opacity-img {
   opacity: 100%;
+  transition: 0.5s opacity linear;
 }
 .opacity-img:hover {
-  opacity: 20%;
+  opacity: 30%;
 }

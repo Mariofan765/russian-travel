@@ -1,8 +1,6 @@
 .places__title {
   grid-column: 2/3;
   grid-row: span 1/4;
-  font-family: Inter;
-  font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
@@ -20,5 +18,6 @@
     line-height: 35px;
     grid-column: 1/2;
     grid-row: 1/2;
+    padding: 0 16px 32px;
   }
 }

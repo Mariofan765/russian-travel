@@ -1,7 +1,4 @@
 .intro__list-element {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
   font-size: 12px;
   line-height: 18px;
   margin: 0;
@@ -9,7 +6,7 @@
 }
 @media screen and (max-width: 768px) {
   .intro__list-element {
-    padding-left: 16px;
+    
     font-size: 12px;
     line-height: 18px;
   }

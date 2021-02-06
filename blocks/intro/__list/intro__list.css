@@ -7,8 +7,14 @@
   padding-bottom: 92px;
 }
 
+@media screen and (max-width: 1024px) {
+  .intro__list {
+    padding-bottom: 88px;
+  }
+}
 @media screen and (max-width: 768px) {
   .intro__list {
     grid-column: 1/2;
+    padding-bottom: 64px;
   }
 }

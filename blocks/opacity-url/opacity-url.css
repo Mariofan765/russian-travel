@@ -1,5 +1,6 @@
 .opacity-url {
   opacity: 100%;
+  transition: 0.5s opacity linear;
 }
 .opacity-url:hover {
   opacity: 80%;
