@@ -1,17 +1,19 @@
-.header__lang-link_en {
+.header__lang-ru {
   color: #FFF;
   font-size: 24px;
   line-height: 28px;
   text-decoration: none;
+  padding: 0 18px 0 0;
+  align-items: flex-end;
   
 }
-.header__lang-link_en:lang(en) {
+.header__lang-ru:lang(ru) {
   text-decoration: underline;
 }
+
 @media screen and (max-width: 768px) {
-  .header__lang-link_en {
+  .header__lang-ru {
     font-size: 18px;
     line-height: 16px;
-    
   }
 }
