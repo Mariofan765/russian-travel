@@ -12,7 +12,8 @@ justify-self: start;
 
 @media screen and (max-width: 1280px) {
   .lead__caption {
-    padding-left: 48px;
+    padding-left: 0px;
+    grid-column: 1/2;
   }
 }
 @media screen and (max-width: 1024px) {

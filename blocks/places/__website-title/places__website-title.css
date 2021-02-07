@@ -11,10 +11,7 @@
 }
 @media screen and (max-width: 768px) {
   .places__website-title {
-    font-size: 12px;
-    line-height: 12px;
     grid-column: 1/2;
-    grid-row: 2/4;
     padding: 0 16px 66px;
   }
 }

@@ -1,18 +1,12 @@
-.header__lang-ru {
+.header__lang {
   color: #FFF;
   font-size: 24px;
   line-height: 28px;
   text-decoration: none;
-  padding: 0 18px 0 0;
-  align-items: flex-end;
-  
-}
-.header__lang-ru:lang(ru) {
-  text-decoration: underline;
 }
 
 @media screen and (max-width: 768px) {
-  .header__lang-ru {
+  .header__lang {
     font-size: 18px;
     line-height: 16px;
   }

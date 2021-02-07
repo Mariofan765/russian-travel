@@ -5,21 +5,25 @@
   max-width: 1280px;
   margin: 0 auto;
   justify-items: center;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 1280px) {
   .lead {
-    grid-template-columns: 48px repeat(2, 1fr) 48px;
+    grid-template-columns: repeat(2, minmax(calc(928px/2), calc(984px/2)));
+    padding: 0 48px;
+    justify-content: center;
   }
 }
 @media screen and (max-width: 1024px) {
   .lead {
-    grid-template-columns: 0 repeat(2, 1fr) 0;
+    grid-template-columns: repeat(2, minmax(calc(768px/2), calc(928px/2)));
+    padding: 0;
   }
 }
 @media screen and (max-width: 768px) {
   .lead {
-    grid-template-columns: 0 repeat(2, 1fr) 0;
+    grid-template-columns: repeat(2, minmax(calc(320px/2), calc(768px/2)));
   }
 }
 
