@@ -13,12 +13,12 @@
 }
 @media screen and (max-width: 1024px) {
   .intro {
-    grid-template-columns: repeat(2, minmax(calc(768px/2), calc(928px/2)));
+    grid-template-columns: repeat(2, minmax(calc(767px/2), calc(928px/2)));
     padding: 0 24px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .intro {
-    grid-template-columns: repeat(2, minmax(calc(320px/2), calc(768px/2)));
+    grid-template-columns: repeat(2, minmax(calc(320px/2), calc(767px/2)));
   }
 }

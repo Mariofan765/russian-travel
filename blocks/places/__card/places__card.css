@@ -19,7 +19,7 @@
     grid-template-columns: 24px 340px 352px 24px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .card {
     row-gap: 0;
     column-gap: 0;

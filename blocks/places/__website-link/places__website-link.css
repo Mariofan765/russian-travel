@@ -8,7 +8,7 @@
   color: white;
   align-self: end;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .places__website-link {
     grid-column: 1/2;
     align-self: start;

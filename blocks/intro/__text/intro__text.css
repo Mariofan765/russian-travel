@@ -20,11 +20,8 @@
     padding-left: 24px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .intro__text {
     padding-bottom: 34px;
-    font-size: 16px;
-    line-height: 163%;
-    grid-column: 1/3;
   }
 }

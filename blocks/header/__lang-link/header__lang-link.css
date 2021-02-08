@@ -4,7 +4,7 @@
   padding-top: 14px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;

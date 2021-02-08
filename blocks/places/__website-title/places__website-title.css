@@ -9,7 +9,7 @@
   align-self: end;
   padding-bottom: 34px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .places__website-title {
     grid-column: 1/2;
     padding: 0 16px 66px;

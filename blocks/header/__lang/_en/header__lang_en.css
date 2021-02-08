@@ -1,6 +1,0 @@
-.header__lang_en {
-
-}
-.header__lang_en:lang(en) {
-  text-decoration: underline;
-}
